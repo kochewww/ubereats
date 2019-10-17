@@ -1,0 +1,187 @@
+html * {
+    font-family: Roboto;   
+}
+.body {
+    position:relative;
+    z-index:2;
+}
+@media only screen and (min-width: 1200px) {
+    .container {
+      width: 976px !important;
+      max-width: 100%;
+    }}
+.header {
+    background: #FFFFFF;
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+            box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            z-index: 1;
+}
+.header_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 72px;
+}
+
+.logo {
+    width:107px;
+     height: 11px;
+}
+@media (min-width: 992px) {.logo {width: 121px; height: 13px;}}
+
+.adress_input,
+.signin,
+.register,
+.basket.box,
+.language_box,
+.time {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border: 1px solid #E0E0E0;
+    border-radius: 2px;
+    height: 55.5555%;
+    color: #1D1D1D;
+    width: 6.7991632%;
+}
+.time_and_location_wrapper {
+    display: none;
+    height: 72px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+
+}
+@media (min-width: 768px) {.time_and_location_wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 21px;
+
+}}
+@media (min-width: 992px) {.time_and_location_wrapper {
+    margin-left: 12.7615063%;}}
+
+.time {
+    width: 65px;
+    height:40px;
+    background: inherit;
+    appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    font-size: 13px;
+    text-align-last: center;
+    margin-right: 16px;
+}
+@media (min-width: 768px) {.time {
+    width: 57px;
+    margin-right: 0px;}}
+@media (min-width: 992px) {.time {
+    width: 65px;
+    font-size: 16px;}}
+.to {
+    font-size: 16px;
+    color: #626262;
+    margin: 0px 9px;
+}
+
+.adress_input {
+    height: 40px;
+    width: 227px;
+    margin-left: 0.9414226%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+            font-size: 13px;
+            background: url(../images/header_buttons/location.svg) no-repeat 12px;
+            padding: 8px 0px 8px 36px;
+}
+@media (min-width: 768px) {.adress_input {
+    width: 215px;
+    }}
+@media (min-width: 992px) {.adress_input {
+    width: 292px;
+    font-size: 16px;}}
+.search_input,
+.language_select {
+    border: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+@media (min-width: 768px) {.search_input { font-size: 16px;}}
+@media (min-width: 992px) {.adress_input{font-size: 16px;}
+    
+}
+.adress_input::-webkit-input-placeholder {
+    color: #1D1D1D;
+}
+.adress_input:-ms-input-placeholder {
+    color: #1D1D1D;
+}
+.adress_input::-ms-input-placeholder {
+    color: #1D1D1D;
+}
+.adress_input::placeholder {
+    color: #1D1D1D;
+}
+.signin,
+.register {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+    width: 72px;
+    background-color: #ffffff;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+@media (min-width:768px) {.signin,
+    .register {width: 80px;
+        margin-left: 9.62%;}}
+@media (min-width:976px) {.signin,
+.register {
+    width: 8.37%;}}
+
+.register {
+    background-color: black;
+    margin-left: 1.6736%;
+    color: #ffffff;
+}
+.basket_box {
+display: none;
+width: 4.18%;
+height: 100%;
+margin-left: 1.6736%;    
+}
+@media (min-width: 768px) {.basket_box {
+    display: inline-block;}}

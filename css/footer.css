@@ -1,0 +1,104 @@
+.footer {
+background: #262626;
+width: 100%;
+height: 49.11%;
+}
+.footer_logo {
+width: 192px;
+height: 20px;
+margin-top:5.8577%;  
+}
+.footer_line {
+    border-bottom: 1px solid #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    margin-top: 4.1841%;    
+}
+.language_icon {
+    margin: 0 16px; 
+}
+
+.language_select {
+    background-color: #3B3B3B !important;
+    display: flex;
+    font-size: 13px;
+    color: #FFFFFF;
+    width: 173px;
+    border-radius: 2px;
+    border: 0px;
+    height: 40px;
+    margin-top: 32px;
+    background: url(../images/footer/footer_langauge_icon.svg) 16px no-repeat,
+    url(../images/footer/langauge_arrow.svg) right 8px bottom 16px no-repeat;
+    appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    padding: 13px 0 12px 48px;
+}
+@media (min-width: 768px) {.language_select {width: 73.701%;}}
+.footer_social {
+margin-top: 10.7142%;
+}
+.hashtag {
+color: green;
+font-size: 16px;
+}
+.footer_ubereats {
+color: white;
+font-size: 16px;
+margin-left: -3px;
+}
+.social_nets {
+    margin-top: 0;
+}
+.facebook {
+    margin-left: 2.5974%;
+    margin-right: 2.5974%;
+}
+.footer_text {
+    color: #FFFFFF;
+    font-size: 13px;
+    margin-bottom: 7.4675%;
+}
+.text_wrapper {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.download_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.1841%;
+}
+.appstore_button {
+    margin-right: 4.1841%;
+}
+.footer_down_text,.footer_down_text_privacy {
+    display: block;
+    color: #FFFFFF;
+    font-size: 11px;
+}
+.footer_down_text_privacy {
+    margin: 24px 0px;
+}
+@media (min-width: 768px) {.footer_down_text_privacy {margin: 0px; margin-bottom: 12.987%;
+    margin-top: 12.987%;}}
+@media (min-width: 768px) {.footer_down_text {margin-bottom: 12.987%;
+    margin-top: 12.987%;}}
+.footer_down_text_wrapper {
+padding: 40px 0px 40px 0px;    
+}
+@media (min-width: 768px) {.footer_down_text_wrapper{padding: 0px;}}
+.tothetop_button {
+    width: 64px;
+    position: fixed;
+    right: 16px;
+    bottom: 24px;
+height: 64px;
+background: #59BD5A url(../images/footer/tothetop_button.png) no-repeat center;
+}
+@media (min-width: 768px) {.tothetop_button {
+    width: 80px;
+    height: 80px;}}
